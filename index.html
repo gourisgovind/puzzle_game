@@ -23,8 +23,11 @@ let tiles = [];
 let emptyIndex = 8;
 
 const imageURL = "https://picsum.photos/300";
-const question = "🎉 You solved it! Here's your question: What comes next?";
-
+const question = `🎉 You solved it! Here's your question:<br>
+A mid-sized electronics company operates in a highly competitive smartphone market dominated by feature-heavy devices with frequent upgrades.<br>
+Instead of competing on specifications, the company launches a minimalist phone with extremely limited features, long battery life, distraction-free design,<br>
+and targets professionals seeking digital detox. It prices the product moderately and markets it as a lifestyle choice rather than a tech gadget.<br>
+👉 Which strategic approach is the company primarily implementing?`;
 function startGame() {
   emptyIndex = 8;
   document.getElementById("question").style.display = "none"; // hide question initially
